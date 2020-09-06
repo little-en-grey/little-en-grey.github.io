@@ -32,7 +32,7 @@ $(document).ready(function() {
     // 件数切替機能
     lengthChange: false,
     // 件数のデフォルトの値
-    displayLength: 1000,
+    displayLength: 50,
     // 縦スクロールバーを有効にする 200, "200px"など
     scrollY:  '74vh',
     // 横スクロールバーを有効にする
@@ -40,7 +40,7 @@ $(document).ready(function() {
     //フィルタ後の件数に応じて高さを調節
     scrollCollapse: true,
     // ページング機能
-    paging: false,
+    paging: true,
     // 情報表示
     info: true,
     //列自動調整
