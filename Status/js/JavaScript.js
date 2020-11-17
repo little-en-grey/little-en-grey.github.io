@@ -63,7 +63,8 @@ $(document).ready(function() {
         { targets: 12, width: 250 }, //タク1
         { targets: 13, width: 250 }, //タク2
         { targets: 14, width: 100 }, //特性
-        { targets: 15, width: 100 } //サポート
+        { targets: 15, width: 100 }, //サポート
+        { targets: 16, width: 100 } //備考
     ],
   });
 
@@ -73,33 +74,15 @@ $(document).ready(function() {
 
  });
 
- const outputElement = document.getElementById('output_csv');
+ const output_svg = document.getElementById('color_list');
 
- function getCsvData(dataPath) {
-  const request = new XMLHttpRequest();
-  request.addEventListener('load', (event) => {
-   const response = event.target.responseText;
-   convertArray(response);
-  });
-  request.open('GET', dataPath, true);
-  request.send();
- }
-
- function convertArray(data) {
-  const dataArray = [];
-  const dataString = data.split('n');
-  for (let i = 0; i < dataString.length; i++) {
-   dataArray[i] = dataString[i].split(',');
-  }
-  let insertElement = '';
-  dataArray.forEach((element) => {
-   insertElement += '<tr>';
-   element.forEach((childElement) => {
-    insertElement += `<td>${childElement}</td>`
-   });
-   insertElement += '</tr>';
-  });
-  outputElement.innerHTML = insertElement;
- }
-
- getCsvData('./ステータス一覧.csv');
+function csv_data(dataPath) {
+    const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
+    request.addEventListener('load', (event) => { // ロードさせ実行
+        const response = event.target.responseText; // 受け取ったテキストを返す
+        output_svg.innerHTML = response; // 表示
+    });
+    request.open('GET', dataPath, true); // csvのパスを指定
+    request.send();
+}
+csv_data('../ステータス一覧.csv'); // csvのパス
