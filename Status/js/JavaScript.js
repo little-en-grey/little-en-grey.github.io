@@ -58,10 +58,10 @@ $(document).ready(function() {
         { targets: 7, width: 20 }, //防御
         { targets: 8, width: 20 }, //速度
         { targets: 9, width: 20 }, //総合
-        { targets: 10, width: 250 }, //スキル
-        { targets: 11, width: 250 }, //UF
-        { targets: 12, width: 250 }, //タク1
-        { targets: 13, width: 250 }, //タク2
+        { targets: 10, width: 200 }, //スキル
+        { targets: 11, width: 200 }, //UF
+        { targets: 12, width: 200 }, //タク1
+        { targets: 13, width: 200 }, //タク2
         { targets: 14, width: 100 }, //特性
         { targets: 15, width: 100 }, //サポート
         { targets: 16, width: 100 } //備考
@@ -86,3 +86,30 @@ function csv_data(dataPath) {
     request.send();
 }
 csv_data('../ステータス一覧.csv'); // csvのパス
+
+
+// timestamp取得
+// 最終更新年月日
+var modified;
+// 最終更新年
+var year;
+// 最終更新月
+var month;
+// 最終更新日
+var date;
+
+/**
+ * ページの最終更新年月日を表示する関数
+ */
+function printLastModified() {
+// ページの最終更新年月日を取得
+    modified = new Date(document.lastModified);
+
+// 最終更新年月日をそれぞれ格納
+    year = modified.getFullYear();
+    month = modified.getMonth() + 1;
+    date = modified.getDate();
+
+// 画面に表示
+    return document.write("最終更新日：" + year + "年" + month + "月" + date + "日");
+}
