@@ -48,7 +48,7 @@ $(document).ready(function() {
     // //各カラムの調節
     columnDefs: [
         // { targets: 0, orderable: false},
-        { targets: 0, width: 50 }, //画像
+        { targets: 0, width: 30 }, //画像
         { targets: 1, width: 50 }, //ユニット名
         { targets: 2, width: 50 }, //レアリティ
         { targets: 3, width: 20 }, //BP
@@ -58,8 +58,8 @@ $(document).ready(function() {
         { targets: 7, width: 20 }, //防御
         { targets: 8, width: 20 }, //速度
         { targets: 9, width: 20 }, //総合
-        { targets: 10, width: 200 }, //スキル
-        { targets: 11, width: 200 }, //タク
+        { targets: 10, width: 150 }, //スキル
+        { targets: 11, width: 150 }, //タク
         { targets: 12, width: 100 }, //特性
         { targets: 13, width: 100 }, //サポート
         { targets: 14, width: 100 } //備考
