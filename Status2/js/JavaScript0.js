@@ -48,7 +48,7 @@ $(document).ready(function() {
     // //各カラムの調節
     columnDefs: [
         // { targets: 0, orderable: false},
-        { targets: 0, width: 30 }, //画像
+        { targets: 0, width: 50 }, //画像
         { targets: 1, width: 50 }, //ユニット名
         { targets: 2, width: 50 }, //レアリティ
         { targets: 3, width: 20 }, //BP
