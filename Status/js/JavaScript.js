@@ -58,11 +58,11 @@ $(document).ready(function() {
         { targets: 7, width: 20 }, //防御
         { targets: 8, width: 20 }, //速度
         { targets: 9, width: 20 }, //総合
-        { targets: 10, width: 200 }, //スキル
-        { targets: 11, width: 200 }, //UF
-        { targets: 12, width: 200 }, //タク1
-        { targets: 13, width: 200 }, //タク2
-        { targets: 14, width: 100 }, //特性
+        { targets: 10, width: 190 }, //スキル
+        { targets: 11, width: 190 }, //UF
+        { targets: 12, width: 190 }, //タク1
+        { targets: 13, width: 190 }, //タク2
+        { targets: 14, width: 140 }, //特性
         { targets: 15, width: 100 }, //サポート
         { targets: 16, width: 100 } //備考
     ],
