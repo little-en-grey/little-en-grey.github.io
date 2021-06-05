@@ -19,7 +19,7 @@
 
 <body>
   <div>
-    最終更新：2021/05/25
+    最終更新：2021/06/05
   </div>
   <!--
   <div id="select" class="bl_selectBlock">
@@ -36,19 +36,28 @@
       <div class="bl_selectBlock_wrapper_wrapper">
         <div class="bl_selectBlock_ttl">レアリティ</div>
         <div class="bl_selectBlock_content js_conditions" data-type="type">
-          <span class="bl_selectBlock_check" data-column="2"><input type="text" class="column_filter" id="col2_filter"></span>
+          <span class="bl_selectBlock_check" ><label for="col2_filter_ssr"><input type="checkbox" class="column_filter_rarity" id="col2_filter_ssr">SSR</label></span>
+          <span class="bl_selectBlock_check" ><label for="col2_filter_ur"><input type="checkbox" class="column_filter_rarity" id="col2_filter_ur">UR</label></span>
         </div>
       </div>
       <div class="bl_selectBlock_wrapper_wrapper">
         <div class="bl_selectBlock_ttl">BP</div>
         <div class="bl_selectBlock_content js_conditions" data-type="price">
-          <span class="bl_selectBlock_check" data-column="3"><input type="text" class="column_filter" id="col3_filter"></span>
+          <span class="bl_selectBlock_check" ><label for="col3_filter_0"><input type="checkbox" class="column_filter_cost" id="col3_filter_0"> 0</label></span>
+          <span class="bl_selectBlock_check" ><label for="col3_filter_12"><input type="checkbox" class="column_filter_cost" id="col3_filter_12">12</label></span>
+          <span class="bl_selectBlock_check" ><label for="col3_filter_13"><input type="checkbox" class="column_filter_cost" id="col3_filter_13">13</label></span>
+          <span class="bl_selectBlock_check" ><label for="col3_filter_14"><input type="checkbox" class="column_filter_cost" id="col3_filter_14">14</label></span>
+          <span class="bl_selectBlock_check" ><label for="col3_filter_15"><input type="checkbox" class="column_filter_cost" id="col3_filter_15">15</label></span>
+          <span class="bl_selectBlock_check" ><label for="col3_filter_16"><input type="checkbox" class="column_filter_cost" id="col3_filter_16">16</label></span>
         </div>
       </div>
       <div class="bl_selectBlock_wrapper_wrapper">
         <div class="bl_selectBlock_ttl">属性</div>
         <div class="bl_selectBlock_content js_conditions">
-          <span class="bl_selectBlock_check" data-column="4"><input type="text" class="column_filter" id="col4_filter"></span>
+          <span class="bl_selectBlock_check" ><label for="col4_filter_r"><input type="checkbox" class="column_filter_attribute" id="col4_filter_r">斬</label></span>
+          <span class="bl_selectBlock_check" ><label for="col4_filter_b"><input type="checkbox" class="column_filter_attribute" id="col4_filter_b">突</label></span>
+          <span class="bl_selectBlock_check" ><label for="col4_filter_p"><input type="checkbox" class="column_filter_attribute" id="col4_filter_p">打</label></span>
+          <span class="bl_selectBlock_check" ><label for="col4_filter_g"><input type="checkbox" class="column_filter_attribute" id="col4_filter_g">遠</label></span>
         </div>
       </div>
     </div>
