@@ -84,9 +84,9 @@ export default {
       poll: true,
     },
   },
-  router: {
-    base: '/little-en-grey.github.io/'
-  },
+  // router: {
+  //   base: '/little-en-grey.github.io/'
+  // },
 
   generate: {
     dir: '../docs'
