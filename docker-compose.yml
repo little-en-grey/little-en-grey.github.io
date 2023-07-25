@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web_app:
+    container_name: web
+    build: docker/
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - '3000:3000'
+    tty: true
