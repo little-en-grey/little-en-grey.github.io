@@ -1,25 +1,12 @@
 <template>
     <v-row justify="center" align="center">
-        <v-col cols="12" sm="8" md="6">
-            <a v-for="(item, i) in gameItems" :key="i" :href="item.url" target="_blank" rel="noopener noreferrer">
-                <v-card class="mb-3">
-                    <v-list-item three-line>
-                        <v-icon x-large color="grey" class="mr-3">{{ item.icon }}</v-icon>
-                        <v-list-item-content>
-                            <v-list-item-title class="text-h6 mb-1">
-                                {{ item.title }}
-                            </v-list-item-title>
-                        </v-list-item-content>
-                    </v-list-item>
-                </v-card>
-            </a>
-        </v-col>
+        
     </v-row>
 </template>
 
 <script>
 export default {
-    name: 'GameIndexPage',
+    name: 'SplatoonIndex',
     layout: 'game',
     data() {
         return {

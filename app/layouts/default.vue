@@ -49,31 +49,26 @@ export default {
       drawer: false,
       fixed: false,
       items: [
-        // {
-        //   icon: 'mdi-apps',
-        //   title: 'Welcome',
-        //   to: '/',
-        // },
-        // {
-        //   icon: 'mdi-chart-bubble',
-        //   title: 'Inspire',
-        //   to: '/inspire',
-        // },
-        // {
-        //   icon: 'mdi-chart-bubble',
-        //   title: 'Game',
-        //   to: '/game',
-        // },
-        // {
-        //   icon: 'mdi-chart-bubble',
-        //   title: 'Work',
-        //   to: '/work',
-        // },
-        // {
-        //   icon: 'mdi-chart-bubble',
-        //   title: 'spla',
-        //   to: '/game/splatoon/random_weapons',
-        // },
+        {
+          icon: 'mdi-apps',
+          title: 'Welcome',
+          to: '/',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Inspire',
+          to: '/inspire',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Game',
+          to: '/game',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Work',
+          to: '/work',
+        },
       ],
       miniVariant: false,
       right: true,
