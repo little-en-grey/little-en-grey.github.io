@@ -106,7 +106,6 @@ export default {
     name: 'SplatoonRandom',
     layout: 'game',
     async asyncData() {
-        // データをdata.jsonからロードする例
         const weapons = await import('@/static/spla/main_weapons.json');
         const subWeapons = await import('@/static/spla/sub_weapons.json');
         const spesialWeapons = await import('@/static/spla/special_weapons.json');

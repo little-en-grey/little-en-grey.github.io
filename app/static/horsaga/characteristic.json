@@ -1,0 +1,192 @@
+[
+	{
+		"id": 0,
+		"name": "-",
+		"explanation": ""
+	},
+	{
+		"id": 1,
+		"name": "蒼突烈撃／真",
+		"explanation": "突属性の敵に通常攻撃ダメージUP[中]"
+	},
+	{
+		"id": 2,
+		"name": "遠耐性",
+		"explanation": "敵遠属性の通常攻撃ダメージを軽減[小]"
+	},
+	{
+		"id": 3,
+		"name": "遠翠の闘気",
+		"explanation": "味方遠属性の攻撃力をUP[小]"
+	},
+	{
+		"id": 4,
+		"name": "遠翠の練気",
+		"explanation": "味方遠属性の防御力をUP[小]"
+	},
+	{
+		"id": 5,
+		"name": "不屈の練気／真",
+		"explanation": "ピンチ時に防御力をUP[中]"
+	},
+	{
+		"id": 6,
+		"name": "一閃",
+		"explanation": "敵単体へ通常攻撃ダメ2倍[低確率]"
+	},
+	{
+		"id": 7,
+		"name": "一閃／真",
+		"explanation": "敵単体へ通常攻撃ダメ2倍[中確率]"
+	},
+	{
+		"id": 8,
+		"name": "遠翠烈撃／真",
+		"explanation": "遠属性の敵に通常攻撃ダメージUP[中]"
+	},
+	{
+		"id": 9,
+		"name": "窮地の癒し",
+		"explanation": "ピンチ時にHPが回復[1回]"
+	},
+	{
+		"id": 10,
+		"name": "窮地の癒し／真",
+		"explanation": "ピンチ時にHPが回復[2回]"
+	},
+	{
+		"id": 11,
+		"name": "堅守",
+		"explanation": "ダメージを1人で引き受ける[高確率]"
+	},
+	{
+		"id": 12,
+		"name": "光芒の闘気",
+		"explanation": "味方全体の攻撃力をUP[小]"
+	},
+	{
+		"id": 13,
+		"name": "光芒の練気",
+		"explanation": "味方全体の防御力をUP[小]"
+	},
+	{
+		"id": 14,
+		"name": "斬紅の闘気",
+		"explanation": "味方斬属性の攻撃力をUP[小]"
+	},
+	{
+		"id": 15,
+		"name": "斬紅の練気",
+		"explanation": "味方斬属性の防御力をUP[小]"
+	},
+	{
+		"id": 16,
+		"name": "斬紅烈撃",
+		"explanation": "斬属性の敵に通常攻撃ダメージUP[小]"
+	},
+	{
+		"id": 17,
+		"name": "斬紅烈撃／真",
+		"explanation": "斬属性の敵に通常攻撃ダメージUP[中]"
+	},
+	{
+		"id": 18,
+		"name": "紫打の闘気",
+		"explanation": "味方打属性の攻撃力をUP[小]"
+	},
+	{
+		"id": 19,
+		"name": "紫打の練気",
+		"explanation": "味方打属性の防御力をUP[小]"
+	},
+	{
+		"id": 20,
+		"name": "紫打烈撃",
+		"explanation": "打属性の敵に通常攻撃ダメージUP[小]"
+	},
+	{
+		"id": 21,
+		"name": "神気",
+		"explanation": "自分の攻撃力と防御力をUP[小]"
+	},
+	{
+		"id": 22,
+		"name": "神気／真",
+		"explanation": "自分の攻撃力と防御力をUP[中]"
+	},
+	{
+		"id": 23,
+		"name": "蒼突の闘気",
+		"explanation": "味方突属性の攻撃力をUP[小]"
+	},
+	{
+		"id": 24,
+		"name": "蒼突烈撃",
+		"explanation": "突属性の敵に通常攻撃ダメージUP[小]"
+	},
+	{
+		"id": 25,
+		"name": "闘気",
+		"explanation": "自分の攻撃力をUP[小]"
+	},
+	{
+		"id": 26,
+		"name": "闘気／真",
+		"explanation": "自分の攻撃力をUP[中]"
+	},
+	{
+		"id": 27,
+		"name": "不屈の闘気",
+		"explanation": "ピンチ時に攻撃力をUP[小]"
+	},
+	{
+		"id": 28,
+		"name": "不屈の闘気／真",
+		"explanation": "ピンチ時に攻撃力をUP[中]"
+	},
+	{
+		"id": 29,
+		"name": "不屈の練気",
+		"explanation": "ピンチ時に防御力をUP[小]"
+	},
+	{
+		"id": 30,
+		"name": "不撓不屈",
+		"explanation": "戦闘不能時にHP1で耐える[低確率]"
+	},
+	{
+		"id": 31,
+		"name": "不撓不屈／真",
+		"explanation": "戦闘不能時にHP1で耐える[中確率]"
+	},
+	{
+		"id": 32,
+		"name": "防壁",
+		"explanation": "敵の攻撃ダメージを軽減[1回]"
+	},
+	{
+		"id": 33,
+		"name": "防壁／真",
+		"explanation": "敵の攻撃ダメージを軽減[2回]"
+	},
+	{
+		"id": 34,
+		"name": "練気",
+		"explanation": "自分の防御力をUP[小]"
+	},
+	{
+		"id": 35,
+		"name": "練気／真",
+		"explanation": "自分の防御力をUP[中]"
+	},
+	{
+		"id": 36,
+		"name": "満月の刃",
+		"explanation": "HP全快時に通常攻撃ダメージUP[小]"
+	},
+	{
+		"id": 37,
+		"name": "斬耐性",
+		"explanation": "敵斬属性の通常攻撃ダメージを軽減[小]"
+	}
+]

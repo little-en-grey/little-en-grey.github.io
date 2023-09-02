@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "cost": 0,
+        "rarity": "SSR"
+    },
+    {
+        "id": 2,
+        "cost": 12,
+        "rarity": "SSR"
+    },
+    {
+        "id": 3,
+        "cost": 13,
+        "rarity": "SSR"
+    },
+    {
+        "id": 4,
+        "cost": 14,
+        "rarity": "SSR"
+    },
+    {
+        "id": 5,
+        "cost": 0,
+        "rarity": "UR"
+    },
+    {
+        "id": 6,
+        "cost": 14,
+        "rarity": "UR"
+    },
+    {
+        "id": 7,
+        "cost": 15,
+        "rarity": "UR"
+    },
+    {
+        "id": 8,
+        "cost": 16,
+        "rarity": "UR"
+    },
+    {
+        "id": 9,
+        "cost": 17,
+        "rarity": "UR"
+    }
+]

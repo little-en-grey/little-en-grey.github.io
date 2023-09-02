@@ -147,7 +147,7 @@
         "name": "ヒーローシューターレプリカ",
         "category": 1,
         "sub": 2,
-        "special": 4
+        "special": 2
     },
     {
         "name": "スプラローラー",
@@ -545,5 +545,65 @@
         "category": 8,
         "sub": 13,
         "special": 3
+    },
+    {
+        "name": "ホクサイ・ヒュー",
+        "category": 9,
+        "sub": 9,
+        "special": 8
+    },
+    {
+        "name": "トライストリンガーコラボ",
+        "category": 10,
+        "sub": 4,
+        "special": 17
+    },
+    {
+        "name": "イグザミナー",
+        "category": 5,
+        "sub": 7,
+        "special": 14
+    },
+    {
+        "name": "モップリン",
+        "category": 4,
+        "sub": 2,
+        "special": 16
+    },
+    {
+        "name": "ダイナモローラーテスラ",
+        "category": 2,
+        "sub": 1,
+        "special": 17
+    },
+    {
+        "name": "パラシェルターソレーラ",
+        "category": 7,
+        "sub": 8,
+        "special": 7
+    },
+    {
+        "name": "スクリュースロッシャーネオ",
+        "category": 4,
+        "sub": 10,
+        "special": 2
+    },
+    {
+        "name": "オーバーフロッシャーデコ",
+        "category": 4,
+        "sub": 13,
+        "special": 5
+    },
+    {
+        "name": "ソイチューバーカスタム",
+        "category": 3,
+        "sub": 6,
+        "special": 9
+    },
+    {
+        "name": "クーゲルシュライバー・ヒュー",
+        "category": 5,
+        "sub": 11,
+        "special": 13
     }
 ]
