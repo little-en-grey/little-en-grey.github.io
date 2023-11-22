@@ -28,18 +28,32 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: app
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Move to app directory
+        run: cd app
+      - name: Detect package manager
+        id: detect-package-manager
+        run: |
+          if [ -f "${{ github.workspace }}/app/yarn.lock" ]; then
+            echo "manager=yarn" >> $GITHUB_OUTPUT
+            echo "command=install" >> $GITHUB_OUTPUT
+            exit 0
+          elif [ -f "${{ github.workspace }}/app/package.json" ]; then
+            echo "manager=npm" >> $GITHUB_OUTPUT
+            echo "command=install" >> $GITHUB_OUTPUT
+            exit 0
+          else
+            echo "Unable to determine package manager"
+            exit 1
+          fi
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: "18.18.2"
-          cache: npm
-          cache-dependency-path: ./package-lock.json
+          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          cache-dependency-path: ./app/package-lock.json
       - name: Restore cache
         uses: actions/cache@v3
         with:
@@ -50,13 +64,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
-        run: npm install
+        working-directory: ./app
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
-        run: npm run generate
+        working-directory: ./app
+        run: ${{ steps.detect-package-manager.outputs.manager }} run generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./dist
+          path: ./app/dist
 
   # Deployment job
   deploy:
