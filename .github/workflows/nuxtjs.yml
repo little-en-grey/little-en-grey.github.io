@@ -28,11 +28,17 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    # defaults:
+    #   run:
+    #     working-directory: app
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Move to app directory
-        run: cd app
+        run: |
+          pwd
+          cd app
+          pwd
       - name: Detect package manager
         id: detect-package-manager
         run: |
